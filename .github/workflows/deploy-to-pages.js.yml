@@ -24,7 +24,7 @@ jobs:
           # Build configuration for the angular app
           #build_configuration: # optional, default is production
           # base href for the app
-          base_href: "https://ScottPeter.github.io/github-demo"
+          base_href: github-demo
           # branch on which the angular build will be deployed
           #deploy_branch: # optional, default is gh-pages
           # The folder in which `ng build` provides its output. This is the folder which will be deployed to the `deploy_branch`.
