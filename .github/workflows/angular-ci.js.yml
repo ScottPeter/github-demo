@@ -20,3 +20,22 @@ jobs:
 
       - name: Run a multi-line script
         uses: mayurrawte/github-angular-actions@latest
+        
+      - name: Angular Deploy gh-pages Actions
+        uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.3.2
+        with:
+          github_access_token: ${{secrets.GITHUB_TOKEN}}
+          # The directory of the angular project, in which all the commands will run
+          #angular_project_dir: # optional, default is ./
+          # Build configuration for the angular app
+          #build_configuration: # optional, default is production
+          # base href for the app
+          #base_href: # optional, default is /
+          # branch on which the angular build will be deployed
+          #deploy_branch: # optional, default is gh-pages
+          # The folder in which `ng build` provides its output. This is the folder which will be deployed to the `deploy_branch`.
+          #angular_dist_build_folder: # optional, default is dist
+          # If the action should run 'ng lint'
+          run_lint: true
+          # Will not fail the step if anything fails
+          #skip_failure: true
