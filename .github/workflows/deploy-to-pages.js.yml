@@ -20,7 +20,7 @@ jobs:
         with:
           github_access_token: ${{secrets.GITHUB_TOKEN}}
           # The directory of the angular project, in which all the commands will run
-          #angular_project_dir: # optional, default is ./
+          angular_project_dir: "https://scottpeter.github.io/github-demo"
           # Build configuration for the angular app
           #build_configuration: # optional, default is production
           # base href for the app
