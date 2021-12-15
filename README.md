@@ -1,2 +1,2 @@
 # GithubDemo
-Github Demo
+Github Demo for continuous learning goal
